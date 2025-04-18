@@ -2,7 +2,7 @@ from crewai import Agent, Task, Crew, Process
 from crewai.project import CrewBase, agent, task, crew
 
 @CrewBase
-class TrailAgentCrew:
+class Sample:
     """Blog-writing agent crew based on YouTube research"""
 
     agents_config = 'config/agents.yaml'
